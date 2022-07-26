@@ -35,4 +35,4 @@ render() {
     );
 };
 
-export default products;
+export default Jewelry;

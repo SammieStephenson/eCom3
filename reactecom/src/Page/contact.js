@@ -1,11 +1,12 @@
 import React from "react";
+import "./contact.css";
 class Contact extends React.Component {
     render() {
         return (
             <section className="contact-section">
                 <h1>A Note for Jenn</h1>
                 <form
-                    className="contact-form"
+                    className="form"
                     action="index.html"
                     onSubmit="return validationForm()"
                     method="post"
@@ -29,7 +30,7 @@ class Contact extends React.Component {
                         className="contact-form-text"
                         placeholder="Question, Concern, or Compliment~"
                     ></textarea>
-                    <input type="submit" className="contact-form-btn" value="send" />
+                    <input type="submit" className="contact-form-btn" value="Submit" />
                 </form>
             </section>
         );

@@ -6,7 +6,8 @@ function Home() {
 
         <div className="slider">
             <figure>
-                <img src="./images/jPortrait.jpg" alt="Jenn" />
+                {/* <img src="./images/jPortrait.jpg" alt="Jenn" /> */}
+                <img src="./images/cartLobeDiamond.jpg" alt="Diamond Weights" />
                 <img src="./images/jAndC.jpg" alt="Jenn and Charlie" />
                 <img src="./images/carbon.jpg" alt="Carbon Elements Salon" />
                 <img src="./images/lobeWeight.jpg" alt="Ear Weights" />

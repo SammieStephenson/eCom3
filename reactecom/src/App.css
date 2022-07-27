@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 
+
 }
 
 body {
   margin: 0;
+  background-image: url('/public/images/greenWallpaper.jpg');
 
 }
 
@@ -14,22 +16,25 @@ body {
 }
 
 .nav {
-  background-color: black;
+  position: fixed;
   color: white;
+  top: 0vw;
+  width: 100vw;
+  background-image: linear-gradient(to bottom, rgb(27, 87, 53), rgba(255, 255, 255, 0.0));
+  background-image: absolute;
+  margin-bottom: 90px;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
-  gap: 2rem;
-  padding: 0 1rem;
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 37pt;
 }
 
 .nav ul {
   padding: 0;
   margin: 0;
+  margin-right: 15px;
   list-style: none;
   display: flex;
   gap: 5rem;
@@ -42,7 +47,7 @@ body {
   height: 100%;
   display: flex;
   padding: .25rem;
-
+  margin-right: 15px;
 }
 
 .nav li:active {
@@ -50,5 +55,5 @@ body {
 }
 
 .nav li:hover {
-  background-color: grey;
+  background-image: linear-gradient(to top, rgb(208, 157, 105), rgb(27, 87, 53, 0.5));
 }

@@ -33,7 +33,7 @@ app.get("/api/products", (req, res) => {
     });
 });
 
-app.listen(4000, () => {
+app.listen(3306, () => {
     console.log(`Console server listening on port 3306.`);
 });
 console.log("test");

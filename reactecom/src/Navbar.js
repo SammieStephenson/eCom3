@@ -3,7 +3,7 @@ export default function Navbar() {
 
 
     return <nav className="nav">
-        <Link to="/" className="site-title">Don't Bite The Apple
+        <Link to="/" className="site-title">Piercings By Jenn
         </Link>
         <ul>
 

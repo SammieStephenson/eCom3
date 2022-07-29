@@ -7,8 +7,8 @@ const app = express();
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Sam15276mie",
-    database: "EcomThree",
+    password: "password",
+    database: "ecommerce",
 });
 
 db.connect((err) => {
@@ -29,11 +29,13 @@ app.get("/api/products", (req, res) => {
             console.log(err);
         } else {
             res.send(result);
+            // console.log(result)
         }
     });
 });
 
-app.listen(3306, () => {
-    console.log(`Console server listening on port 3306.`);
+app.listen(8080, () => {
+    console.log(`Console server listening on port 8080.`);
 });
 console.log("test");
+

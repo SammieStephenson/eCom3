@@ -7,7 +7,7 @@ export default function Navbar() {
         </Link>
         <ul>
 
-            <CustomLink to="/products">Jewelry</CustomLink>
+            <CustomLink to="/jewelry">Jewelry</CustomLink>
             <CustomLink to="/contact">Contact</CustomLink>
 
 

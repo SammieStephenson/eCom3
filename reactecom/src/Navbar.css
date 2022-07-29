@@ -38,5 +38,5 @@
 }
 
 .nav li:hover {
-    background-image: linear-gradient(to top, rgb(208, 157, 105), rgb(27, 87, 53, 0.5));
+    background-image: linear-gradient(to bottom, rgb(208, 157, 105), rgba(27, 87, 53, 0.3));
 }

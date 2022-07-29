@@ -15,22 +15,26 @@ class Contact extends React.Component {
                         type="text"
                         className="contact-form-text"
                         placeholder="First and Last Name"
+                        required
                     />
                     <input
                         type="email"
                         className="contact-form-text"
                         placeholder="Email"
+                        required
                     />
                     <input
                         type="text"
                         className="contact-form-text"
                         placeholder="Phone"
+                        required
                     />
                     <textarea
                         className="contact-form-text"
                         placeholder="Question, Concern, or Compliment~"
+                        required
                     ></textarea>
-                    <input type="submit" className="contact-form-btn" value="Submit" />
+                    <input type="submit" className="contact-form-btn" value="Submit" required />
                 </form>
             </section>
         );
